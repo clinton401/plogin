@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid black; */
 }
 body {
   background-color: var(--Magnolia);
@@ -16,7 +17,7 @@ body {
 
 }
 main {
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   background-color: var(--White);
   padding: 20px 20px 20px 20px;
   width: 750px;
@@ -24,7 +25,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   border-radius: 15px;
-  border: none;
+  border: 1px solid black;
   min-height: 550px;
   overflow-x: hidden;
   height: auto;
@@ -546,22 +547,25 @@ form.active, .plan.act2, .plan.act3, .add-on.act2, .add-on.act3, .summary.act2, 
   font-weight: 900;
   font-size: 19px;
 }
-.success {
+#success {
   position: relative;
   padding: 20px 10% 0 10%;
   display: flex;
   position: absolute;
   height: 93%;
   left: 2000px;
+  top: 0;
   width: 70%;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
+  /* background-color: black; */
   /* justify-content: center; */
   /* border: 3px solid black; */
   flex-direction: column;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
-.success.active {
+#success.active {
    left: 30%;
   transition: 0.5s ease-in-out;
 }
