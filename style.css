@@ -320,6 +320,14 @@ form.active, .plan.act2, .plan.act3, .add-on.act2, .add-on.act3, .summary.act2, 
   color: var(--cool-gray);
   padding-left: 30px;
 }
+.year.active {
+  color: var(--Marine-blue);
+  transition: 0.5s;
+}
+.month.active {
+  color: var(--cool-gray);
+  transition: 0.5s;
+}
 .toggle-mode {
   border-radius: 20px;
   height: 25px;

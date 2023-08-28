@@ -220,10 +220,14 @@ const myHandler = () => {
     const d2p2 = document.getElementById('d2h62');
     const d2h63 = document.getElementById('d2h63');
     const summMy = document.getElementById('summ-my');
+    const mth = document.getElementById('moth');
+    const yrs = document.getElementById('yrs');
     free.classList.toggle('active');
     free2.classList.toggle('active');
     free3.classList.toggle('active');
     ball.classList.toggle('active');
+    mth.classList.toggle('active');
+    yrs.classList.toggle('active');
     if (ball.classList.contains("active")) { 
         m1.innerText = '+$10/yr';
         m2.innerText = '+$20/yr';
